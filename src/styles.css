@@ -1,0 +1,21 @@
+*, *::before, *::after {
+    margin: none;
+    padding: none;
+}
+
+/* VARIABLES */
+:root {
+    --night: rgba(17, 17, 17, 1);
+    --platinum: rgba(229, 228, 226, 1);
+}
+
+body {
+    background-color: var(--night);
+}
+
+h1 {
+    color: var(--platinum);
+}
+.profileContainer {
+    transform: scale(0.65);
+}
